@@ -19,13 +19,13 @@ public class Main {
         ArrayList<Car> cars = new ArrayList<Car>();
         cars.add(tesla);
 
-        Carshowroom Kings = new Carshowroom("KingCar", "Lagankhel", cars);
-        Kings.output();
+        Carshowroom kings = new Carshowroom("KingCar", "Lagankhel", cars);
+        kings.output();
         System.out.println();
         cars.clear();
         cars.add(Rover);
-        Carshowroom Queens = new Carshowroom("QueensCar","Bhaisepati", cars);
-        Queens.output();
+        Carshowroom queens = new Carshowroom("QueensCar","Bhaisepati", cars);
+        queens.output();
     }
 
 }
