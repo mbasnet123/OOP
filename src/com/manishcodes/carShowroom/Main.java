@@ -9,13 +9,13 @@ public class Main {
         features.add("Sexy");
         features.add("Top_speed");
         features.add("efficient");
-        Car tesla = new Car("Tesla Model 3", 150, "Electric", features, "Black");
+        Car tesla = new Car("Tesla Model 3", 150, "Electric", features, "Black,","0");
         features.clear();
         features.add("Exhaust");
         features.add("Top_acceleration");
         features.add("Loud-noise");
         features.add("Beautiful");
-        Car Rover = new Car("Range-Rover", 200, "Diesel", features, "White");
+        Car Rover = new Car("Range-Rover", 200, "Diesel", features, "White", "4");
         ArrayList<Car> cars = new ArrayList<Car>();
         cars.add(tesla);
 

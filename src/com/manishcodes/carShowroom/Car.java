@@ -9,12 +9,15 @@ public class Car {
     public ArrayList<String> features;
     public String color;
 
-    public Car(String brand, int priceInThousand, String engine, ArrayList<String> features, String color){
+    public String gear;
+
+    public Car(String brand, int priceInThousand, String engine, ArrayList<String> features, String color, String gear){
         this.brand = brand;
         this.priceInThousand = priceInThousand;
         this.engine = engine;
         this.features = features;
         this.color = color;
+        this.gear=gear;
         }
 
         public void output(){
@@ -25,5 +28,6 @@ public class Car {
                 System.out.println("The features of the car is "+ feature);
             }
             System.out.println("The color of the car is "+color);
+            System.out.println("the geaar of the car is "+gear);
     }
 }
