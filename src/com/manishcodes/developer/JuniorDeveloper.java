@@ -59,12 +59,15 @@ public class JuniorDeveloper extends Developer {
 
     public void appointDeveloper(String developerName, String appointedDate, String terminationDate, String specialization){
         if(joined==false){
-            super.getDeveloperName(developerName);
+            super.setDeveloperName(developerName);
             this.joined = true;
         }
         else{
             System.out.println("The developer appointed on"+appointedDate);
         }
+        this.terminationDate = terminationDate;
+        this.specialization = specialization;
+        this.appointedDate = appointedDate;
     }
     public void displayDetails(){
         super.display();
