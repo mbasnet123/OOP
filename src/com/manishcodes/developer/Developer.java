@@ -35,11 +35,11 @@ public class Developer{
     }
 
     public void display(){
-        System.out.println("The platform is"+platform);
-        System.out.println("The workinghour is"+ workingHours);
-        System.out.println("The interviewername is"+interviewerName);
+        System.out.println("The platform is "+platform);
+        System.out.println("The workinghour is "+ workingHours);
+        System.out.println("The interviewername is "+interviewerName);
         if(developerName!=""){
-            System.out.println("The developerName is"+ developerName);
+            System.out.println("The developerName is "+ developerName);
         }
     }
 }
